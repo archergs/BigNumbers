@@ -8,13 +8,13 @@ class NumberComponent {
   void addToNumberComponent(int operand);
   void subtractFromNumberComponent(int operand);
 
-  NumberComponent* getUpperGroup();
-  NumberComponent* getLowerGroup();
+  NumberComponent* getUpperComponent();
+  NumberComponent* getLowerComponent();
 
  private:
   int numComponent;
-  NumberComponent* upperGroup;
-  NumberComponent* lowerGroup;
+  NumberComponent* upperComponent;
+  NumberComponent* lowerComponent;
 };
 
 #endif
