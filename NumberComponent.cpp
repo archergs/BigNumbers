@@ -7,5 +7,5 @@ void NumberComponent::setNumberComponent(int num) { numComponent = num; }
 void NumberComponent::addToNumberComponent(int operand) {}
 void NumberComponent::subtractFromNumberComponent(int operand) {}
 
-NumberComponent* NumberComponent::getUpperGroup() {}
-NumberComponent* NumberComponent::getLowerGroup() {}
+NumberComponent* NumberComponent::getUpperComponent() {}
+NumberComponent* NumberComponent::getLowerComponent() {}
